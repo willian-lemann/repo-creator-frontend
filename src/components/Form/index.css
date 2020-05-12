@@ -1,0 +1,78 @@
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.form-container input {
+    text-align: center;
+    width: 400px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.form-container textarea {
+    text-align: center;
+    vertical-align: middle;
+    width: 400px;
+    resize: vertical;
+    max-height: 200px;
+    min-height: 100px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    outline: none;
+}
+
+.form-container button {
+    border: 0;
+    font-size: 18px;
+    height: 60px;
+    width: 200px;
+    border-radius: 3px;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    background: linear-gradient(to right bottom, white, #f0f0f0);
+    transition: 0.3s;
+}
+
+.gitclonetext-container {
+    margin-top: 20px;
+    height: 100px;
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.gitclonetext-container input {
+    height: 20px;
+    padding: 12px;
+    background: #7159c1;
+    border-bottom: 2px solid black;
+    border-radius: 0;
+}
+
+.clip-container {
+    display: flex;
+    justify-content: center;
+}
+
+.clipIcon {
+    color: white;
+    height: 20px;
+}
+
+.form-container button:hover {
+    opacity: 0.6;
+}

@@ -1,0 +1,10 @@
+.layout-container {
+    background: #7159c1;
+    height: 600px;
+    width: 600px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
